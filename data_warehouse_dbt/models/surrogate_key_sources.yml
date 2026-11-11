@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: surrogate_keys
+    description: >
+      Persistent SQL Server surrogate-key mapping tables.
+      Managed separately from dbt transformations.
+
+    database: DataWarehouse
+    schema: dbt_dev
+
+    tables:
+      - name: customer_key_map
+        description: >
+          Stores permanent mappings between CRM customer
+          identifiers and customer surrogate keys.
+
+      - name: product_key_map
+        description: >
+          Stores permanent mappings between business product
+          numbers and product surrogate keys.
+          Existing mappings are preserved across loads.

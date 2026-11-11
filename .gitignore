@@ -1,0 +1,41 @@
+# ============================================================
+# SQL Server Data Warehouse - Git Ignore Rules
+# ============================================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+profiles.yml
+
+# Airflow runtime files
+logs/
+airflow.db
+airflow.cfg
+
+# dbt generated files
+target/
+dbt_packages/
+
+# Temporary files and backups
+*.log
+*.tmp
+*.bak
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db

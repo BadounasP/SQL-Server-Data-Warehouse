@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_crm_products
+    description: >
+      Cleaned CRM product records with standardized
+      categories, product lines, costs and historical dates.
+
+    columns:
+      - name: prd_id
+        description: "CRM identifier for a product record."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: prd_line
+        description: "Standardized product line."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Mountain
+                  - Road
+                  - Other Sales
+                  - Touring
+                  - n/a

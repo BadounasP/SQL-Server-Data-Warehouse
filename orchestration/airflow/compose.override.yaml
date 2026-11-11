@@ -1,0 +1,27 @@
+# Data Warehouse — Airflow worker mounts
+
+services:
+  airflow-worker:
+    volumes:
+      # Existing dbt project
+      - type: bind
+        source: ../../data_warehouse_dbt
+        target: /opt/warehouse/dbt
+        read_only: true
+
+      # Existing private dbt connection profile
+      - type: bind
+        source: ./dbt_profiles
+        target: /opt/warehouse/profiles
+        read_only: true
+
+      # Original source datasets: read-only
+      - type: bind
+        source: ../../Datasets
+        target: /opt/warehouse/datasets
+        read_only: true
+
+      # SQL Server ingestion directory: read/write
+      - type: bind
+        source: C:/DataWarehouse/ingest
+        target: /opt/warehouse/ingest

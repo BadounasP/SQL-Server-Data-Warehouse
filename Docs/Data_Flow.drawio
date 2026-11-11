@@ -1,0 +1,424 @@
+<mxfile host="app.diagrams.net" agent="OpenAI (editable mxGraph source)">
+  <diagram id="data-flow" name="Data Flow">
+    <mxGraphModel dx="2498" dy="1425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1820" pageHeight="1040" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="data-flow-7" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFFFF;strokeColor=#79A9E0;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="684" width="250" x="55" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-11" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFFFF;strokeColor=#E7AC50;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="684" width="273" x="345" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-15" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFFFF;strokeColor=#A1ADBD;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="684" width="309" x="663" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-19" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFFFF;strokeColor=#E5BA55;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="684" width="608" x="1150" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-4" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#DDE4ED;strokeWidth=2;endArrow=none;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56" y="139" as="sourcePoint" />
+            <mxPoint x="1764" y="139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-33" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="601" y="314" as="sourcePoint" />
+            <mxPoint x="680" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-43" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279" y="396" as="sourcePoint" />
+            <mxPoint x="362" y="396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-44" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="601" y="396" as="sourcePoint" />
+            <mxPoint x="680" y="396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-54" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279" y="478" as="sourcePoint" />
+            <mxPoint x="362" y="478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-55" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="601" y="478" as="sourcePoint" />
+            <mxPoint x="680" y="478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-65" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279" y="568" as="sourcePoint" />
+            <mxPoint x="362" y="568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-66" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="601" y="568" as="sourcePoint" />
+            <mxPoint x="680" y="568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-76" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279" y="650" as="sourcePoint" />
+            <mxPoint x="362" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-77" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="601" y="650" as="sourcePoint" />
+            <mxPoint x="680" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-87" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279" y="732" as="sourcePoint" />
+            <mxPoint x="362" y="732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-88" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="601" y="732" as="sourcePoint" />
+            <mxPoint x="680" y="732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-98" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=1.9;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1075" y="314" />
+              <mxPoint x="1075" y="345" />
+            </Array>
+            <mxPoint x="955" y="314" as="sourcePoint" />
+            <mxPoint x="1280" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-99" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=1.9;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1090" y="396" />
+              <mxPoint x="1090" y="560" />
+            </Array>
+            <mxPoint x="955" y="396" as="sourcePoint" />
+            <mxPoint x="1280" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-100" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=1.9;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="478" />
+              <mxPoint x="1060" y="764" />
+            </Array>
+            <mxPoint x="955" y="478" as="sourcePoint" />
+            <mxPoint x="1280" y="764" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-101" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=1.9;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="568" />
+              <mxPoint x="1110" y="390" />
+            </Array>
+            <mxPoint x="955" y="568" as="sourcePoint" />
+            <mxPoint x="1280" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-102" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=1.9;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="650" />
+              <mxPoint x="1125" y="411" />
+            </Array>
+            <mxPoint x="955" y="650" as="sourcePoint" />
+            <mxPoint x="1280" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-103" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=1.9;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="732" />
+              <mxPoint x="1140" y="605" />
+            </Array>
+            <mxPoint x="955" y="732" as="sourcePoint" />
+            <mxPoint x="1280" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-111" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#E0E6ED;strokeWidth=1.6;endArrow=none;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58" y="986" as="sourcePoint" />
+            <mxPoint x="1762" y="986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-flow-8" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#CEE3FF;strokeColor=#79A9E0;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="58" width="250" x="55" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-12" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFE2B7;strokeColor=#E7AC50;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="58" width="273" x="345" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-16" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#DBE2EA;strokeColor=#A1ADBD;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="58" width="309" x="663" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-20" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFE3A2;strokeColor=#E5BA55;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="58" width="608" x="1150" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-23" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#E8F2FF;strokeColor=#79A9E0;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="201" x="78" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-26" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF1DC;strokeColor=#E7AC50;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="239" x="362" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-29" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F0F3F7;strokeColor=#A1ADBD;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="275" x="680" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-34" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#E8F2FF;strokeColor=#79A9E0;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="201" x="78" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-37" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF1DC;strokeColor=#E7AC50;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="239" x="362" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-40" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F0F3F7;strokeColor=#A1ADBD;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="275" x="680" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-45" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#E8F2FF;strokeColor=#79A9E0;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="201" x="78" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-48" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF1DC;strokeColor=#E7AC50;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="239" x="362" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-51" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F0F3F7;strokeColor=#A1ADBD;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="275" x="680" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-56" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#E8F2FF;strokeColor=#79A9E0;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="201" x="78" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-59" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF1DC;strokeColor=#E7AC50;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="239" x="362" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-62" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F0F3F7;strokeColor=#A1ADBD;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="275" x="680" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-67" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#E8F2FF;strokeColor=#79A9E0;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="201" x="78" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-70" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF1DC;strokeColor=#E7AC50;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="239" x="362" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-73" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F0F3F7;strokeColor=#A1ADBD;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="275" x="680" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-78" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#E8F2FF;strokeColor=#79A9E0;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="201" x="78" y="704" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-81" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF1DC;strokeColor=#E7AC50;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="239" x="362" y="704" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-84" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F0F3F7;strokeColor=#A1ADBD;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="56" width="275" x="680" y="704" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-89" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF4D4;strokeColor=#E5BA55;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="108" width="396" x="1280" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-92" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF4D4;strokeColor=#E5BA55;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="108" width="396" x="1280" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-95" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF4D4;strokeColor=#E5BA55;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="100" width="396" x="1280" y="714" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-104" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F2EEFF;strokeColor=#AB9BD9;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="39" width="145" x="990" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-106" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F0F3F7;strokeColor=#A1ADBD;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="40" width="224" x="710" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-108" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#EAF7F0;strokeColor=#76B798;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="30" width="244" x="1356" y="828" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=34;fontColor=#17273A;fontStyle=1;spacing=0;" value="Data Flow" vertex="1">
+          <mxGeometry height="57" width="584" x="55" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Six source files → six Bronze SQL tables → six dbt Silver staging views → three Gold dimensional views" vertex="1">
+          <mxGeometry height="36" width="794" x="56" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=#315E94;fontStyle=1;spacing=0;" value="CRM / ERP Sources" vertex="1">
+          <mxGeometry height="42" width="226" x="67" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Synthetic CSV files" vertex="1">
+          <mxGeometry height="34" width="230" x="65" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=#955F18;fontStyle=1;spacing=0;" value="Bronze • SQL Server" vertex="1">
+          <mxGeometry height="42" width="249" x="357" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Raw source tables" vertex="1">
+          <mxGeometry height="34" width="253" x="355" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-17" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=#526273;fontStyle=1;spacing=0;" value="Silver • dbt" vertex="1">
+          <mxGeometry height="42" width="285" x="675" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Views in dbt_dev" vertex="1">
+          <mxGeometry height="34" width="289" x="673" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=#966816;fontStyle=1;spacing=0;" value="Gold • dbt" vertex="1">
+          <mxGeometry height="42" width="584" x="1162" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-22" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Dimension and fact views in dbt_dev" vertex="1">
+          <mxGeometry height="34" width="588" x="1160" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-24" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#315E94;fontStyle=1;spacing=0;" value="cust_info.csv" vertex="1">
+          <mxGeometry height="28" width="181" x="88" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-25" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="CRM source" vertex="1">
+          <mxGeometry height="21" width="181" x="88" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-27" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#955F18;fontStyle=1;spacing=0;" value="crm_cust_info" vertex="1">
+          <mxGeometry height="28" width="219" x="372" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-28" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="SQL table" vertex="1">
+          <mxGeometry height="21" width="219" x="372" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-30" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#526273;fontStyle=1;spacing=0;" value="stg_crm_customers" vertex="1">
+          <mxGeometry height="28" width="255" x="690" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="dbt staging view" vertex="1">
+          <mxGeometry height="21" width="255" x="690" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-35" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#315E94;fontStyle=1;spacing=0;" value="prd_info.csv" vertex="1">
+          <mxGeometry height="28" width="181" x="88" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-36" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="CRM source" vertex="1">
+          <mxGeometry height="21" width="181" x="88" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-38" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#955F18;fontStyle=1;spacing=0;" value="crm_prd_info" vertex="1">
+          <mxGeometry height="28" width="219" x="372" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-39" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="SQL table" vertex="1">
+          <mxGeometry height="21" width="219" x="372" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-41" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#526273;fontStyle=1;spacing=0;" value="stg_crm_products" vertex="1">
+          <mxGeometry height="28" width="255" x="690" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-42" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="dbt staging view" vertex="1">
+          <mxGeometry height="21" width="255" x="690" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-46" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#315E94;fontStyle=1;spacing=0;" value="sales_details.csv" vertex="1">
+          <mxGeometry height="28" width="181" x="88" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-47" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="CRM source" vertex="1">
+          <mxGeometry height="21" width="181" x="88" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-49" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#955F18;fontStyle=1;spacing=0;" value="crm_sales_details" vertex="1">
+          <mxGeometry height="28" width="219" x="372" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-50" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="SQL table" vertex="1">
+          <mxGeometry height="21" width="219" x="372" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-52" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#526273;fontStyle=1;spacing=0;" value="stg_crm_sales" vertex="1">
+          <mxGeometry height="28" width="255" x="690" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-53" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="dbt staging view" vertex="1">
+          <mxGeometry height="21" width="255" x="690" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-57" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#315E94;fontStyle=1;spacing=0;" value="CUST_AZ12.csv" vertex="1">
+          <mxGeometry height="28" width="181" x="88" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-58" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="ERP source" vertex="1">
+          <mxGeometry height="21" width="181" x="88" y="572" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-60" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#955F18;fontStyle=1;spacing=0;" value="erp_cust_az12" vertex="1">
+          <mxGeometry height="28" width="219" x="372" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-61" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="SQL table" vertex="1">
+          <mxGeometry height="21" width="219" x="372" y="572" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-63" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#526273;fontStyle=1;spacing=0;" value="stg_erp_customers" vertex="1">
+          <mxGeometry height="28" width="255" x="690" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-64" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="dbt staging view" vertex="1">
+          <mxGeometry height="21" width="255" x="690" y="572" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-68" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#315E94;fontStyle=1;spacing=0;" value="LOC_A101.csv" vertex="1">
+          <mxGeometry height="28" width="181" x="88" y="626" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-69" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="ERP source" vertex="1">
+          <mxGeometry height="21" width="181" x="88" y="654" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-71" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#955F18;fontStyle=1;spacing=0;" value="erp_loc_a101" vertex="1">
+          <mxGeometry height="28" width="219" x="372" y="626" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-72" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="SQL table" vertex="1">
+          <mxGeometry height="21" width="219" x="372" y="654" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-74" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#526273;fontStyle=1;spacing=0;" value="stg_erp_locations" vertex="1">
+          <mxGeometry height="28" width="255" x="690" y="626" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-75" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="dbt staging view" vertex="1">
+          <mxGeometry height="21" width="255" x="690" y="654" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-79" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#315E94;fontStyle=1;spacing=0;" value="PX_CAT_G1V2.csv" vertex="1">
+          <mxGeometry height="28" width="181" x="88" y="708" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-80" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="ERP source" vertex="1">
+          <mxGeometry height="21" width="181" x="88" y="736" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-82" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#955F18;fontStyle=1;spacing=0;" value="erp_px_cat_g1v2" vertex="1">
+          <mxGeometry height="28" width="219" x="372" y="708" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-83" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="SQL table" vertex="1">
+          <mxGeometry height="21" width="219" x="372" y="736" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-85" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#526273;fontStyle=1;spacing=0;" value="stg_erp_product_categories" vertex="1">
+          <mxGeometry height="28" width="255" x="690" y="708" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-86" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="dbt staging view" vertex="1">
+          <mxGeometry height="21" width="255" x="690" y="736" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-90" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=22;fontColor=#966816;fontStyle=1;spacing=0;" value="dim_customers" vertex="1">
+          <mxGeometry height="28" width="376" x="1290" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-91" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="CRM customers + ERP demographics / locations&lt;br&gt;Persistent customer surrogate keys" vertex="1">
+          <mxGeometry height="73" width="376" x="1290" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-93" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=22;fontColor=#966816;fontStyle=1;spacing=0;" value="dim_products" vertex="1">
+          <mxGeometry height="28" width="376" x="1290" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-94" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Active CRM products + ERP categories&lt;br&gt;Persistent product surrogate keys" vertex="1">
+          <mxGeometry height="73" width="376" x="1290" y="553" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-96" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=22;fontColor=#966816;fontStyle=1;spacing=0;" value="fact_sales" vertex="1">
+          <mxGeometry height="28" width="376" x="1290" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-97" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Sales lines joined to customer and product dimensions" vertex="1">
+          <mxGeometry height="65" width="376" x="1290" y="746" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-105" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#67579F;fontStyle=1;spacing=0;" value="source() / ref()" vertex="1">
+          <mxGeometry height="35" width="129" x="998" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-107" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#526273;fontStyle=1;spacing=0;" value="Cleaning + standardization" vertex="1">
+          <mxGeometry height="36" width="208" x="718" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-109" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#377C59;fontStyle=1;spacing=0;" value="customer_key_map  •  product_key_map" vertex="1">
+          <mxGeometry height="26" width="228" x="1365" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-110" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#17273A;fontStyle=1;spacing=0;" value="Airflow orchestrates file staging, Bronze ingestion, dbt transformations, stable-key sync, tests and SQL audit logging." vertex="1">
+          <mxGeometry height="70" width="1720" x="60" y="901" as="geometry" />
+        </mxCell>
+        <mxCell id="data-flow-112" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Layers represent logical medallion stages; Silver and Gold are dbt-managed SQL Server views. Connections indicate transformation lineage." vertex="1">
+          <mxGeometry height="34" width="1700" x="60" y="992" as="geometry" />
+        </mxCell>
+        <mxCell id="10CEx2xcHnKzZaBi0B2O-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="customer_key_map and product_key_map&amp;nbsp;are an important part of how our Silver data becomes reliable Gold dimensions and facts. They preserve the identity of customers and products across successive pipeline executions." vertex="1">
+          <mxGeometry height="21" width="1700" x="59" y="1014" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh8xBy6zmhMCTui3ia_K-1" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=2.1;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279" y="317" as="sourcePoint" />
+            <mxPoint x="362" y="317" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

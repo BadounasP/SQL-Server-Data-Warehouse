@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_erp_product_categories
+    description: >
+      ERP product category reference data.
+      Preserves the original category,
+      subcategory, and maintenance attributes.
+
+    columns:
+      - name: id
+        description: "Product category identifier."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: cat
+        description: "Product category name."
+        data_tests:
+          - not_null
+
+      - name: subcat
+        description: "Product subcategory name."
+
+      - name: maintenance
+        description: "Maintenance attribute from ERP."

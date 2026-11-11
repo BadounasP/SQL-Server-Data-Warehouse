@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: crm
+    description: "Raw customer, product, and sales data from the CRM system."
+    database: DataWarehouse
+    schema: bronze
+    tables:
+      - name: crm_cust_info
+        description: "Raw CRM customer records."
+
+      - name: crm_prd_info
+        description: "Raw CRM product records."
+
+      - name: crm_sales_details
+        description: "Raw CRM sales transactions."
+
+  - name: erp
+    description: "Raw customer, location, and product category data from the ERP system."
+    database: DataWarehouse
+    schema: bronze
+    tables:
+      - name: erp_cust_az12
+        description: "ERP customer demographic information."
+
+      - name: erp_loc_a101
+        description: "ERP customer location information."
+
+      - name: erp_px_cat_g1v2
+        description: "ERP product category information."

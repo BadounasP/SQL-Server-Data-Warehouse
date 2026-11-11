@@ -1,0 +1,295 @@
+<mxfile host="app.diagrams.net" agent="OpenAI (editable mxGraph source)">
+  <diagram id="warehouse-architecture" name="Data Warehouse Architecture">
+    <mxGraphModel dx="2073" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="1110" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="warehouse-architecture-10" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFFFF;strokeColor=#79A9E0;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="330" width="265" x="60" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-14" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFFFF;strokeColor=#AB9BD9;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="330" width="265" x="351" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-18" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFFFF;strokeColor=#E7AC50;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="330" width="265" x="641" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-22" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFFFF;strokeColor=#A1ADBD;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="330" width="284" x="931" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-26" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFFFF;strokeColor=#E5BA55;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="330" width="284" x="1242" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-30" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFFFF;strokeColor=#76B798;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="330" width="325" x="1552" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-4" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#DDE4ED;strokeWidth=2;endArrow=none;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56" y="139" as="sourcePoint" />
+            <mxPoint x="1884" y="139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="warehouse-architecture-70" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=3;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="493" as="sourcePoint" />
+            <mxPoint x="351" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="warehouse-architecture-71" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=3;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="616" y="493" as="sourcePoint" />
+            <mxPoint x="641" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="warehouse-architecture-72" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=3;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="906" y="493" as="sourcePoint" />
+            <mxPoint x="931" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="warehouse-architecture-73" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=3;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1215" y="493" as="sourcePoint" />
+            <mxPoint x="1242" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="warehouse-architecture-74" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#8191A3;strokeWidth=3;endArrow=block;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1526" y="493" as="sourcePoint" />
+            <mxPoint x="1552" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="warehouse-architecture-91" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;strokeColor=#E0E6ED;strokeWidth=1.6;endArrow=none;endFill=1;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58" y="1056" as="sourcePoint" />
+            <mxPoint x="1882" y="1056" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="warehouse-architecture-7" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F2EEFF;strokeColor=#AB9BD9;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="100" width="1814" x="62" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-11" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#CEE3FF;strokeColor=#79A9E0;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="56" width="265" x="60" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-15" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#E3D9FF;strokeColor=#AB9BD9;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="56" width="265" x="351" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-19" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFE2B7;strokeColor=#E7AC50;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="56" width="265" x="641" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-23" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#DBE2EA;strokeColor=#A1ADBD;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="56" width="284" x="931" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-27" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFE3A2;strokeColor=#E5BA55;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="56" width="284" x="1242" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-31" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#D1EEDD;strokeColor=#76B798;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="56" width="325" x="1552" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-34" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#E8F2FF;strokeColor=#79A9E0;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="76" width="229" x="78" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-37" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#E8F2FF;strokeColor=#79A9E0;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="76" width="229" x="78" y="527" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-40" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F2EEFF;strokeColor=#AB9BD9;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="86" width="224" x="372" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-43" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F2EEFF;strokeColor=#AB9BD9;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="80" width="224" x="372" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-46" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF1DC;strokeColor=#E7AC50;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="88" width="224" x="661" y="431" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-49" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF1DC;strokeColor=#E7AC50;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="80" width="224" x="661" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-52" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F0F3F7;strokeColor=#A1ADBD;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="84" width="241" x="953" y="434" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-55" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F0F3F7;strokeColor=#A1ADBD;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="80" width="241" x="953" y="537" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-58" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF4D4;strokeColor=#E5BA55;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="100" width="241" x="1263" y="431" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-61" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF4D4;strokeColor=#E5BA55;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="75" width="241" x="1263" y="547" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-64" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#EAF7F0;strokeColor=#76B798;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="84" width="281" x="1574" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-67" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#EAF7F0;strokeColor=#76B798;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="77" width="281" x="1574" y="541" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-76" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#EAF7F0;strokeColor=#76B798;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="165" width="430" x="62" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-79" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F0F3F7;strokeColor=#A1ADBD;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="165" width="429" x="516" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-82" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFF1DC;strokeColor=#E7AC50;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="165" width="430" x="969" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-85" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#E8F2FF;strokeColor=#79A9E0;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="165" width="454" x="1423" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-88" parent="1" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#F4F6F9;strokeColor=#C6D2DF;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="80" width="1815" x="62" y="946" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=34;fontColor=#17273A;fontStyle=1;spacing=0;" value="Data Warehouse Architecture" vertex="1">
+          <mxGeometry height="45" width="549" x="55" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=24;fontColor=#67579F;fontStyle=1;spacing=0;" value="Apache Airflow • dbt • Docker • GitHub Actions" vertex="1">
+          <mxGeometry height="35" width="1755" x="89" y="181" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Schedules ten processing tasks, runs success/failure audit watchers, and records task-level logs" vertex="1">
+          <mxGeometry height="27" width="1755" x="90" y="223" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=#315E94;fontStyle=1;spacing=0;" value="Source systems" vertex="1">
+          <mxGeometry height="40" width="241" x="72" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="CRM + ERP CSVs" vertex="1">
+          <mxGeometry height="34" width="245" x="70" y="391" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=#67579F;fontStyle=1;spacing=0;" value="File staging" vertex="1">
+          <mxGeometry height="40" width="241" x="363" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-17" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Airflow Python tasks" vertex="1">
+          <mxGeometry height="34" width="245" x="361" y="391" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-20" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=#955F18;fontStyle=1;spacing=0;" value="Bronze" vertex="1">
+          <mxGeometry height="40" width="241" x="653" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="SQL Server tables" vertex="1">
+          <mxGeometry height="34" width="245" x="651" y="391" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-24" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=#526273;fontStyle=1;spacing=0;" value="Silver" vertex="1">
+          <mxGeometry height="40" width="260" x="943" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-25" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="dbt staging views" vertex="1">
+          <mxGeometry height="34" width="264" x="941" y="391" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-28" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=#966816;fontStyle=1;spacing=0;" value="Gold" vertex="1">
+          <mxGeometry height="40" width="260" x="1254" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-29" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="dbt dimensional views" vertex="1">
+          <mxGeometry height="34" width="264" x="1252" y="391" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=#377C59;fontStyle=1;spacing=0;" value="Consumption" vertex="1">
+          <mxGeometry height="40" width="301" x="1564" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-33" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Query-ready star schema" vertex="1">
+          <mxGeometry height="34" width="305" x="1562" y="391" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-35" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=#315E94;fontStyle=1;spacing=0;" value="CRM" vertex="1">
+          <mxGeometry height="28" width="209" x="88" y="431" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-36" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="3 files: customers, products, sales" vertex="1">
+          <mxGeometry height="41" width="209" x="88" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-38" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=#315E94;fontStyle=1;spacing=0;" value="ERP" vertex="1">
+          <mxGeometry height="28" width="209" x="88" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-39" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="3 files: demographics + locations&lt;br&gt;+ product categories" vertex="1">
+          <mxGeometry height="41" width="209" x="88" y="559" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-41" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=#67579F;fontStyle=1;spacing=0;" value="Validate CSVs" vertex="1">
+          <mxGeometry height="28" width="204" x="382" y="431" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-42" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Header + data-row checks" vertex="1">
+          <mxGeometry height="51" width="204" x="382" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-44" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#67579F;fontStyle=1;spacing=0;" value="Normalize endings" vertex="1">
+          <mxGeometry height="28" width="204" x="382" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-45" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Append final newline in staged copy only" vertex="1">
+          <mxGeometry height="45" width="204" x="382" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-47" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#955F18;fontStyle=1;spacing=0;" value="bronze.load_bronze" vertex="1">
+          <mxGeometry height="28" width="204" x="671" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-48" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="T-SQL BULK INSERT&lt;br&gt;Transactional full refresh" vertex="1">
+          <mxGeometry height="53" width="204" x="671" y="463" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-50" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=19;fontColor=#955F18;fontStyle=1;spacing=0;" value="6 raw tables" vertex="1">
+          <mxGeometry height="28" width="204" x="671" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-51" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="SQL Server • DataWarehouse" vertex="1">
+          <mxGeometry height="45" width="204" x="671" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-53" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=19;fontColor=#526273;fontStyle=1;spacing=0;" value="6 dbt views" vertex="1">
+          <mxGeometry height="28" width="221" x="963" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-54" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="stg_crm_* and stg_erp_*" vertex="1">
+          <mxGeometry height="49" width="221" x="963" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-56" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=#526273;fontStyle=1;spacing=0;" value="Clean &amp;amp; standardize" vertex="1">
+          <mxGeometry height="28" width="221" x="963" y="541" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-57" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="SQL / Jinja • source()" vertex="1">
+          <mxGeometry height="45" width="221" x="963" y="569" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-59" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#966816;fontStyle=1;spacing=0;" value="dim_customers&lt;br&gt;dim_products" vertex="1">
+          <mxGeometry height="45" width="221" x="1273" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-60" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Dimensions with persistent keys" vertex="1">
+          <mxGeometry height="30" width="221" x="1273" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-62" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=19;fontColor=#966816;fontStyle=1;spacing=0;" value="fact_sales" vertex="1">
+          <mxGeometry height="28" width="221" x="1273" y="551" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-63" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Transaction-line fact view" vertex="1">
+          <mxGeometry height="40" width="221" x="1273" y="579" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-65" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=19;fontColor=#377C59;fontStyle=1;spacing=0;" value="SQL analytics" vertex="1">
+          <mxGeometry height="28" width="261" x="1584" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-66" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Ad-hoc SELECT queries" vertex="1">
+          <mxGeometry height="49" width="261" x="1584" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-68" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#377C59;fontStyle=1;spacing=0;" value="Future consumers" vertex="1">
+          <mxGeometry height="28" width="261" x="1584" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-69" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="BI / ML teams" vertex="1">
+          <mxGeometry height="42" width="261" x="1584" y="573" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-75" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=22;fontColor=#17273A;fontStyle=1;spacing=0;" value="Supporting engineering controls" vertex="1">
+          <mxGeometry height="34" width="1725" x="66" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-77" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=19;fontColor=#377C59;fontStyle=1;spacing=0;" value="Stable surrogate keys" vertex="1">
+          <mxGeometry height="38" width="394" x="80" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-78" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="dbt_dev.customer_key_map&lt;br&gt;dbt_dev.product_key_map" vertex="1">
+          <mxGeometry height="80" width="392" x="81" y="809" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-80" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=19;fontColor=#526273;fontStyle=1;spacing=0;" value="Automated data quality" vertex="1">
+          <mxGeometry height="38" width="393" x="534" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-81" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="50 dbt tests (YAML + SQL)&lt;br&gt;Run after Gold models" vertex="1">
+          <mxGeometry height="80" width="391" x="535" y="809" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-83" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=19;fontColor=#955F18;fontStyle=1;spacing=0;" value="SQL Server audit history" vertex="1">
+          <mxGeometry height="38" width="394" x="987" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-84" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="audit.pipeline_run_events&lt;br&gt;SUCCESS / FAILED events" vertex="1">
+          <mxGeometry height="80" width="392" x="988" y="809" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-86" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=19;fontColor=#315E94;fontStyle=1;spacing=0;" value="GitHub Actions • CI/CD" vertex="1">
+          <mxGeometry height="38" width="418" x="1441" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-87" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Python / YAML checks, dbt parse&lt;br&gt;Docker image build • Smoke test dbt inside the image" vertex="1">
+          <mxGeometry height="80" width="416" x="1442" y="809" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-89" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#17273A;fontStyle=1;spacing=0;" value="Environment: SQL Server on Windows  •  Airflow •&amp;nbsp;docker •&amp;nbsp;dbt • GitHub Actions" vertex="1">
+          <mxGeometry height="30" width="835" x="85" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-90" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="Bronze loads use a stored procedure; Silver/Gold views are built by dbt; CI/CD runs remotely without connecting to local SQL Server." vertex="1">
+          <mxGeometry height="26" width="945" x="85" y="988" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse-architecture-92" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#5D6C7E;fontStyle=0;spacing=0;" value="As-built portfolio architecture • sources and outputs are synthetic; security settings and certificate trust are for local development only." vertex="1">
+          <mxGeometry height="34" width="1820" x="60" y="1062" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,68 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: >
+      Gold customer dimension integrating CRM customer
+      information with ERP demographic and location data.
+      Contains one row per customer.
+
+    columns:
+      - name: customer_key
+        description: >
+          Surrogate key generated for each customer
+          dimension row.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        description: >
+          Original CRM customer identifier.
+        data_tests:
+          - unique
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_crm_customers')
+                field: cst_id
+
+      - name: customer_number
+        description: "Business customer identifier."
+
+      - name: first_name
+        description: "Customer first name."
+
+      - name: last_name
+        description: "Customer last name."
+
+      - name: country
+        description: "Customer country sourced from ERP."
+
+      - name: marital_status
+        description: "Standardized marital status."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Single
+                  - Married
+                  - n/a
+
+      - name: gender
+        description: >
+          Standardized customer gender with CRM taking
+          priority over ERP when a known value exists.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Female
+                  - Male
+                  - n/a
+
+      - name: birthdate
+        description: "Customer birthdate from ERP."
+
+      - name: create_date
+        description: "CRM customer creation date."

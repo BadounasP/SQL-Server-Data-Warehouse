@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_erp_locations
+    description: >
+      Standardized ERP customer location records.
+      Removes hyphens from customer identifiers,
+      standardizes selected country codes,
+      and handles missing country values.
+
+    columns:
+      - name: cid
+        description: "Standardized ERP customer identifier."
+        data_tests:
+          - not_null
+
+      - name: cntry
+        description: "Standardized customer country."
+        data_tests:
+          - not_null

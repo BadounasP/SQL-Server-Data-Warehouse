@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: fact_sales
+    description: >
+      Gold sales fact model at the sales transaction-line grain.
+      Integrates cleaned CRM sales with customer and
+      product dimensions.
+
+    columns:
+      - name: order_number
+        description: "Source sales order number."
+        data_tests:
+          - not_null
+
+      - name: customer_key
+        description: "Foreign key to dim_customers."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customers')
+                field: customer_key
+
+      - name: product_key
+        description: "Foreign key to dim_products."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_products')
+                field: product_key
+
+      - name: order_date
+        description: "Date the sales order was placed."
+
+      - name: shipping_date
+        description: "Date the order was shipped."
+
+      - name: due_date
+        description: "Expected delivery due date."
+
+      - name: sales_amount
+        description: "Cleaned sales revenue amount."
+
+      - name: quantity
+        description: "Number of units sold."
+
+      - name: price
+        description: "Cleaned unit sales price."

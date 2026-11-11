@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_crm_sales
+    description: >
+      Cleaned CRM sales transactions with standardized
+      dates, corrected sales amounts and unit prices.
+
+    columns:
+      - name: sls_ord_num
+        description: "Sales order number."
+        data_tests:
+          - not_null
+
+      - name: sls_prd_key
+        description: "Product identifier for the transaction."
+        data_tests:
+          - not_null
+
+      - name: sls_cust_id
+        description: "Customer identifier for the transaction."
+        data_tests:
+          - not_null

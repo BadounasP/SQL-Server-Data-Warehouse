@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: dim_products
+    description: >
+      Gold product dimension integrating CRM product
+      records with ERP category information.
+      Contains currently active product versions only.
+
+    columns:
+      - name: product_key
+        description: >
+          Persistent product surrogate key assigned through the SQL Server dbt_dev.product_key_map table.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: product_id
+        description: "Original CRM product record identifier."
+        data_tests:
+          - unique
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_crm_products')
+                field: prd_id
+
+      - name: product_number
+        description: >
+          Business product identifier. Expected to be
+          unique among currently active product versions.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: product_name
+        description: "Descriptive product name."
+
+      - name: category_id
+        description: "Product category identifier."
+
+      - name: category
+        description: "Category name sourced from ERP."
+
+      - name: subcategory
+        description: "Product subcategory sourced from ERP."
+
+      - name: maintenance
+        description: "ERP maintenance attribute."
+
+      - name: cost
+        description: "Standardized product cost."
+
+      - name: product_line
+        description: "Standardized CRM product line."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Mountain
+                  - Road
+                  - Other Sales
+                  - Touring
+                  - n/a
+
+      - name: start_date
+        description: "Start date of the active product version."
